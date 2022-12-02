@@ -20,14 +20,14 @@ section{
     color: white;
     width: 100vw;
     height: 100vh;
-    background-color: #000000;
+    background-color: #00020B;
 }
 
 section img{
     width: 24rem;
     height: 23rem;
     border-radius: 50%;
-    border: solid #3a62a8 0.3rem;
+    border: solid #3a62a8 0.2rem;
 }
 
 section p{
@@ -40,13 +40,11 @@ section p{
 }
 
 .linha{
-    display: flex;
-    justify-content: center;
-    background-color: #000000;
+    background-color: #00020B;
 }
 
 #linha-div{
+    margin: 0 auto;
     border: solid #3a62a8 1px;
     width: 90%;
-    opacity: 70%;
 }
