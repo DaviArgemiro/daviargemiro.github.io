@@ -10,6 +10,7 @@ header{
     justify-content: center;
     width: 98.9vw;
     position: fixed;
+    z-index: 1;
 }
 
 .content{
