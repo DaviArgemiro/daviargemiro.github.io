@@ -16,7 +16,6 @@ h3, div > p{
 }
 
 div > p{
-    display: table-caption;
     text-align: justify;
     width: 17rem;
 }
