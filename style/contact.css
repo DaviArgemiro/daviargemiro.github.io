@@ -1,8 +1,6 @@
 .menu{
     position: fixed;
     z-index: 999;
-    width: 88vw;
-    height: 86vh;
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
@@ -11,8 +9,8 @@
 .menu li{
     position: fixed;
     list-style: none;
-    right: 13.7vw;
-    bottom: 13vh;
+    right: 11.5rem;
+    bottom: 6rem;
     transform-origin: 100px;
     transition: 0.7s;
     transition-delay: calc(0.1s * var(--i));
@@ -39,8 +37,8 @@
 }
 
 .toggle{
-    bottom: 12vh;
-    right: 7vw;
+    bottom: 5rem;
+    right: 5.8rem;
     z-index: 1000;
     position: fixed;
     width: 60px;
