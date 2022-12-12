@@ -9,12 +9,12 @@
 .menu li{
     position: fixed;
     list-style: none;
-    right: 11.5rem;
-    bottom: 6rem;
+    right: 4.5rem;
+    bottom: 4rem;
     transform-origin: 100px;
     transition: 0.7s;
     transition-delay: calc(0.1s * var(--i));
-    transform: rotate(0deg) translateX(80px);
+    transform: rotate(0deg);
 }
 
 .menu li a{
@@ -26,19 +26,20 @@
     color: #3a62a8;
     background: #000418;
     border-radius: 50%;
-    transform: rotate(calc(360deg / -4 * var(--i)));
+    transform: rotate(calc(0deg / -4 * var(--i)));
     box-shadow: 0 3px 4px rgba(0, 0, 0, 0.15);
     transition: 0.5s;
     font-size: 2rem;
 }
 
 .menu.active li{
-    transform: rotate(calc(360deg / 4 * var(--i)));
+    bottom: 8rem;
+    transform: translateY(calc(-15rem / 4 * var(--i)));
 }
 
 .toggle{
-    bottom: 5rem;
-    right: 5.8rem;
+    bottom: 3rem;
+    right: 3.8rem;
     z-index: 1000;
     position: fixed;
     width: 60px;
