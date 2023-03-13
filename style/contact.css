@@ -59,3 +59,20 @@
 .menu.active .toggle{
     transform: rotate(315deg);
 }
+
+@media (max-width: 800px){
+    .toggle{
+        right: 1.8rem;
+        bottom: 2.2rem;
+    }
+
+    .menu li{
+        right: 2.5rem;
+        bottom: 2.4rem;
+    }
+
+    .menu.active li{
+        bottom: 7rem;
+        transform: translateY(calc(-15rem / 4 * var(--i)));
+    }
+}

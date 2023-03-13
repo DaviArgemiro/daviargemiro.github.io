@@ -5,6 +5,10 @@ body{
     background-color: #00020B;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 h3{
     display: inline-flex;
     border-bottom: solid #3a62a8 1px;
