@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     background-color: #030303;
     width: 98vw;
@@ -17,7 +21,8 @@ section:nth-of-type(1){
 
 section:nth-of-type(1) > div > p{
     color: white;
-    font-size: 30px;
+    font-size: 3rem;
+    width: 34rem;
 }
 
 img{
@@ -25,6 +30,7 @@ img{
 }
 
 article{
+    background-color: #00020B;
     display: flex;
     justify-content: center;
     align-items: center;
