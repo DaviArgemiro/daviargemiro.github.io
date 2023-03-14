@@ -16,13 +16,19 @@ section{
 }
 
 section:nth-of-type(1){
-    gap: 100px;
+    gap: 10rem;
 }
 
 section:nth-of-type(1) > div > p{
     color: white;
     font-size: 3rem;
     width: 34rem;
+}
+
+section:nth-of-type(2){
+    height: 100%;
+    flex-wrap: wrap;
+    padding: 5%;
 }
 
 img{
@@ -36,9 +42,9 @@ article{
     align-items: center;
     border: solid 1px #3a62a8;
     border-radius: 0rem 1rem 0rem 1rem;
-    width: 18rem;
+    width: 17rem;
     height: 24rem;
-    margin: 2rem;
+    margin: 3rem;
 }
 
 article > p{
