@@ -19,11 +19,11 @@ ul{
     justify-content: space-around;
 }
 
-ul li a{
+footer > ul li a{
     color: white;
     text-decoration: none;
 }
 
-ul li a:hover{
+footer > ul li a:hover{
     color: #01afaf;
 }
