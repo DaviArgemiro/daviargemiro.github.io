@@ -1,10 +1,11 @@
 html{
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 body{
     background-color: #030303;
-    width: 98vw;
+    width: 100vw;
     height: 100vh;
 }
 
